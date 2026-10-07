@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "838439547919",
+    "project_id": "bloodhub-56778",
+    "storage_bucket": "bloodhub-56778.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838439547919:android:37c6dfa5152b28d98e9f7a",
+        "android_client_info": {
+          "package_name": "com.example.blood_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH8nVuasIK00E4fkKg3ZBJJhkTNQxQMzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838439547919:android:dad2ffddef34a56e8e9f7a",
+        "android_client_info": {
+          "package_name": "com.sadib.blood_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH8nVuasIK00E4fkKg3ZBJJhkTNQxQMzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

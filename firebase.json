@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bloodhub-56778",
+          "appId": "1:838439547919:android:37c6dfa5152b28d98e9f7a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bloodhub-56778",
+          "configurations": {
+            "android": "1:838439547919:android:37c6dfa5152b28d98e9f7a",
+            "ios": "1:838439547919:ios:04161e43a69eea888e9f7a",
+            "macos": "1:838439547919:ios:04161e43a69eea888e9f7a",
+            "web": "1:838439547919:web:13b725c620fff5ef8e9f7a",
+            "windows": "1:838439547919:web:92b2b0863b12bf068e9f7a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
